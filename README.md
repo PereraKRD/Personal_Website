@@ -23,7 +23,6 @@ My proficiency spans across various aspects of web development:
 ## Education & Certification
 
 - **BSc.Eng. (Hons) – Computer Engineering** at University of Ruhuna, Faculty of Engineering, Sri Lanka. CGPA: 3.79 (2020 - 2025)
-- **Diploma in CAD** from CADD CENTRE, Sri Lanka (2019 - 2020).
 - Various certifications from Coursera, UDEMY, and the Department of Computer Science & Engineering, University of Moratuwa.
 
 ## Experience & Testimonials
