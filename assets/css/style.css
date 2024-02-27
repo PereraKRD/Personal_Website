@@ -584,6 +584,12 @@ body {
       transform: rotate(360deg);
     }
   }
+
+  .contact-section {
+    min-height: calc(100vh - 70px); 
+    
+  }
+  
    
   /*--------------------------------------------------------------
   # Footer

@@ -53,6 +53,7 @@
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#memories" class="nav-link scrollto"><i class="bi bi-memory"></i> <span>Memories</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-phone"></i> <span>Contact Me</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -301,9 +302,6 @@
             <img src="./assets/img/testimonials/Steve Jobs.jpg" class="testimonial-img" alt="">
             <h3>Steve Jobs</h3>
           </div>
-              
-              <!-- End testimonial item -->
-
         </div>
     </section>
     <!-- End Testimonials Section -->
@@ -384,19 +382,53 @@
         </div>
     </section>
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact container">
-        <footer id="footer">
-            <div class="container mb-0">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center mt-4 mb-0 border-top">
-              <div class="col-md-4 d-flex align-items-center">
-                </a>
-                <span class="mb-0 mb-md-0 text-body-secondary">© KRD</span>
-              </div>       
-            </footer>
-          </div>
-        </footer>
-    </section><!-- End Contact Section -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+  
+  <div class="container col-9" data-aos="fade-up">
+    <div class="container">
+            <!-- Contact Info -->
+            <div class="col-md-9 mb-3">
+              <h5 class="strong">Contact Info :</h5>
+                <div class="container">
+                  <p><strong>E mail:</strong> ryanperera0531@gmail.com</p>
+                <p><strong>Phone:</strong> +94 76 183 6986</p>
+                </div>
+            </div>
+            <hr />
+            <!-- Contact Form -->
+            <div class="col-md-9">
+              <h5 class="strong">Else you can drop message here :</h5>
+                <div class="container">
+                  <form action="https://formspree.io/f/mnqevzno" method="POST">
+                    <div class="form-group mb-1">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group mb-1">
+                        <input type="email" name="_replyto" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                </div>
+            </div>
+    </div>
+  </div>
+  <footer class="mt-4 mb-0 border-top ">
+    <div class="d-flex justify-content-between align-items-center">
+        <span class="text-body-secondary">© KRD</span>
+    </div>
+  </footer>
+</section>
+<!-- End Contact Section -->
+<!-- Footer -->
 
   </main><!-- End #main -->
 
@@ -418,11 +450,13 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-
-  
-
   <!-- Template Main JS File -->
   <script src="assets/js/index.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Your form HTML goes here -->
+
 </body>
 
 </html>
