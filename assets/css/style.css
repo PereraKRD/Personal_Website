@@ -399,6 +399,23 @@ body {
   /*--------------------------------------------------------------
   # Resume
   --------------------------------------------------------------*/
+
+  .btn-download-cv {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-download-cv:hover {
+    background-color: #0056b3;
+  }
+  
+
   .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
